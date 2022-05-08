@@ -5,6 +5,7 @@ import {
 	Image,
 	ScrollView,
 	FlatList,
+	TextInput,
 } from 'react-native';
 
 const RN = {
@@ -14,6 +15,7 @@ const RN = {
 	Image: Image,
 	ScrollView: ScrollView,
 	FlatList: FlatList,
+	TextInput: TextInput,
 };
 
 export default RN;

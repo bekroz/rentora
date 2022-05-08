@@ -1,15 +1,15 @@
-import { View, Text } from 'react-native';
 import React from 'react';
+import RN from '../../../common/react-native';
 import styles from './styles';
 
 const WelcomeMsg = () => {
 	return (
-		<View style={styles.welcomeMsgContainer}>
-			<Text style={styles.welcomeTxt}>
-				Hey, <Text style={styles.bold}>Jonathan!</Text>
+		<RN.View style={styles.welcomeMsgContainer}>
+			<RN.Text style={styles.welcomeTxt}>
+				Hey, <RN.Text style={styles.bold}>Jonathan!</RN.Text>
 				{'\n'}Let's start exploring!
-			</Text>
-		</View>
+			</RN.Text>
+		</RN.View>
 	);
 };
 

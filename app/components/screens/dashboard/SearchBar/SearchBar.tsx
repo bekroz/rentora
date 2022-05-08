@@ -1,5 +1,5 @@
-import { View, Image, TouchableOpacity, TextInput } from 'react-native';
 import React from 'react';
+import RN from '../../../common/react-native';
 import styles from './styles';
 import { DASHBOARD_LANG } from '../../../../constants/data/lang';
 // Icons
@@ -9,19 +9,27 @@ import dividerIcon from '../../../../../assets/png/dashboard/dashboard-divider.p
 
 const SearchBar = () => {
 	return (
-		<View style={styles.searchBarContainer}>
-			<TouchableOpacity style={styles.searchInputContainer}>
-				<Image source={searchIcon} resizeMode='contain' style={styles.searchIcon} />
-				<TextInput
+		<RN.View style={styles.searchBarContainer}>
+			<RN.TouchableOpacity style={styles.searchInputContainer}>
+				<RN.Image
+					source={searchIcon}
+					resizeMode='contain'
+					style={styles.searchIcon}
+				/>
+				<RN.TextInput
 					placeholder={DASHBOARD_LANG.searchPlaceholder}
 					style={styles.searchText}
 				/>
-			</TouchableOpacity>
-			<Image source={dividerIcon} resizeMode='contain' style={styles.divider} />
-			<TouchableOpacity style={styles.searchAudioContainer}>
-				<Image source={micIcon} />
-			</TouchableOpacity>
-		</View>
+			</RN.TouchableOpacity>
+			<RN.Image
+				source={dividerIcon}
+				resizeMode='contain'
+				style={styles.divider}
+			/>
+			<RN.TouchableOpacity style={styles.searchAudioContainer}>
+				<RN.Image source={micIcon} />
+			</RN.TouchableOpacity>
+		</RN.View>
 	);
 };
 

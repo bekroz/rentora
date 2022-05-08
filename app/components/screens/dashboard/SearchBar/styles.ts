@@ -1,6 +1,6 @@
-import { StyleSheet } from 'react-native';
+import RN from '../../../common/react-native';
 
-export default StyleSheet.create({
+export default RN.StyleSheet.create({
 	searchBarContainer: {
 		flexDirection: 'row',
 		backgroundColor: '#F5F4F8',

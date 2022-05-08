@@ -1,7 +1,6 @@
-import { StyleSheet } from 'react-native';
-import { COLORS } from '../../../../constants/theme';
+import RN from '../../../common/react-native';
 
-export default StyleSheet.create({
+export default RN.StyleSheet.create({
 	categoryListContainer: {
 		marginBottom: 20,
 	},

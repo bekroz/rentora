@@ -1,4 +1,5 @@
 import {
+	SafeAreaView,
 	View,
 	Text,
 	TouchableOpacity,
@@ -6,16 +7,19 @@ import {
 	ScrollView,
 	FlatList,
 	TextInput,
+	StyleSheet,
 } from 'react-native';
 
 const RN = {
-	View: View,
-	Text: Text,
-	TouchableOpacity: TouchableOpacity,
-	Image: Image,
-	ScrollView: ScrollView,
-	FlatList: FlatList,
-	TextInput: TextInput,
+	SafeAreaView,
+	View,
+	Text,
+	TouchableOpacity,
+	Image,
+	ScrollView,
+	FlatList,
+	TextInput,
+	StyleSheet,
 };
 
 export default RN;

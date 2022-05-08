@@ -1,6 +1,6 @@
-import { StyleSheet } from 'react-native';
+import RN from '../../../common/react-native';
 
-export default StyleSheet.create({
+export default RN.StyleSheet.create({
 	welcomeMsgContainer: {
 		flexDirection: 'column',
 		marginBottom: 25,

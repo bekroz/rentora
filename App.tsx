@@ -1,20 +1,21 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import RN from './app/components/common/react-native';
+import { COLORS } from './app/constants/theme';
 import { DashboardScreen } from './app/screens/private';
 // import { AppNavigation } from './app/navigation';
 
 export default function App() {
 	return (
-		<View style={styles.container}>
+		<RN.SafeAreaView style={styles.container}>
 			<StatusBar style='auto' />
 			<DashboardScreen />
-		</View>
+		</RN.SafeAreaView>
 	);
 }
 
-const styles = StyleSheet.create({
+const styles = RN.StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: '#fff',
+		backgroundColor: COLORS.dark,
 	},
 });

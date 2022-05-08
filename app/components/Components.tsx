@@ -1,17 +1,23 @@
-import { Layout } from './common/Layout';
+import { DashboardLayout } from './common/Layouts';
 import {
 	TopBarBtns,
 	WelcomeMsg,
 	SearchBar,
 	CategoryList,
+	OnSaleList,
 } from './screens/dashboard';
 
 const Components = {
-	Layout,
-	TopBarBtns,
-	WelcomeMsg,
-	SearchBar,
-	CategoryList,
+	Layouts: {
+		DashboardLayout,
+	},
+	Dashboard: {
+		TopBarBtns,
+		WelcomeMsg,
+		SearchBar,
+		CategoryList,
+		OnSaleList,
+	},
 };
 
 export default Components;

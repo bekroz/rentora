@@ -2,9 +2,9 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import Svg, { Path, Rect } from 'react-native-svg';
 
-export default function DropDownSvg() {
+export default function DropDownSvg(props) {
 	return (
-		<View style={styles.container}>
+		<View style={styles.container} {...props.style}>
 			<Svg
 				width='10'
 				height='10'

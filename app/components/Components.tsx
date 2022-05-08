@@ -1,10 +1,17 @@
-import React from 'react';
 import { Layout } from './common/Layout';
-import { TopBarContainer } from './screens/dashboard';
+import {
+	TopBarBtns,
+	WelcomeMsg,
+	SearchBar,
+	CategoryList,
+} from './screens/dashboard';
 
 const Components = {
-	Layout: Layout,
-	TopBarContainer: TopBarContainer,
+	Layout,
+	TopBarBtns,
+	WelcomeMsg,
+	SearchBar,
+	CategoryList,
 };
 
 export default Components;

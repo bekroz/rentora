@@ -1,8 +1,10 @@
-const dashbordLocation = '../../../assets/svg/dashboard/dashboard-location.svg';
+import LocationSvg from '../../components/svgs/dashboard-location';
+import DropDownSvg from '../../components/svgs/dashboard-dropdown';
 
 const SvgIcons = {
 	dashboard: {
-		location: dashbordLocation,
+		location: LocationSvg,
+		dropDown: DropDownSvg,
 	},
 };
 

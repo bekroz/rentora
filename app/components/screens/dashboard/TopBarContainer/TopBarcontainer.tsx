@@ -1,15 +1,15 @@
 import React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
+import SvgIcons from '../../../../constants/img';
 import styles from './styles';
 
 const TopBarContainer = () => {
 	return (
 		<View style={styles.topBarContainer}>
-			{/* <SvgIcons.dashboard.location /> */}
 			<TouchableOpacity style={styles.locationBtn}>
-				<Text style={styles.location}>Icon 1</Text>
+				<SvgIcons.dashboard.location />
 				<Text style={styles.location}>Jakarta, Indonesia</Text>
-				<Text style={styles.location}>Icon 2</Text>
+				<SvgIcons.dashboard.dropDown />
 			</TouchableOpacity>
 			<View style={styles.topRightContainer}>
 				<TouchableOpacity style={[styles.topRightBtn, { marginRight: 10 }]}>

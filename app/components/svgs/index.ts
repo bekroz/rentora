@@ -1,0 +1,1 @@
+export { default as DashboardLocationSvg } from './dashboard-location'

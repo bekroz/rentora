@@ -6,6 +6,7 @@ import {
 	CategoryList,
 	OnSaleList,
 } from './screens/dashboard';
+import { TopFeatureBar } from './screens/featured';
 
 const Components = {
 	Layouts: {
@@ -17,6 +18,9 @@ const Components = {
 		SearchBar,
 		CategoryList,
 		OnSaleList,
+	},
+	Featured: {
+		TopFeatureBar,
 	},
 };
 

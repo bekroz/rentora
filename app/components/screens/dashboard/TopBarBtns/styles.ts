@@ -54,4 +54,7 @@ export default RN.StyleSheet.create({
 		height: '100%',
 		borderRadius: 50,
 	},
+	white: {
+		backgroundColor: COLORS.white,
+	},
 });

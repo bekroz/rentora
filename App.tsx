@@ -16,6 +16,6 @@ export default function App() {
 const styles = RN.StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: COLORS.dark,
+		backgroundColor: COLORS.gray,
 	},
 });

@@ -9,6 +9,10 @@ const SIZES = {
 	padding: 20,
 	margin: 20,
 	border: 1,
+	h1: 32,
+	h2: 28,
+	h3: 24,
+	h4: 20,
 	width,
 	height,
 };

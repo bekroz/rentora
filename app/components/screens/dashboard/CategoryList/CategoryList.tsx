@@ -2,7 +2,7 @@ import React from 'react';
 import RN from '../../../common/react-native';
 import styles from './styles';
 import { COLORS } from '../../../../constants/theme';
-import { CategoryBtnProps } from '../../../../models/Dashboard';
+import { CategoryBtnProps } from '../../../../models/dashboard';
 import { CategoryListData } from '../../../../constants/data/dummy';
 
 const CategoryBtn = ({ title, isChosen = true }: CategoryBtnProps) => {

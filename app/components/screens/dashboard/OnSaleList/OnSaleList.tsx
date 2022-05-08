@@ -3,7 +3,7 @@ import RN from '../../../common/react-native';
 import styles from './styles';
 import arrowKeyIcon from '../../../../../assets/png/dashboard/dashboard-arrow.png';
 import { OnSaleHomeListData } from '../../../../constants/data/dummy';
-import { HomeProps } from '../../../../models/Dashboard';
+import { HomeProps } from '../../../../models/dashboard';
 
 const OnSaleHome = ({ imgUri, title, subTitle }: HomeProps) => {
 	return (

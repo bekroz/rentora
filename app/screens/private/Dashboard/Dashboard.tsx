@@ -1,6 +1,7 @@
 import React from 'react';
-import { View } from 'react-native';
+import { Text, View } from 'react-native';
 import { Components } from '../../../components';
+import { SIZES } from '../../../constants/theme';
 
 const DashboardScreen = () => {
 	return (

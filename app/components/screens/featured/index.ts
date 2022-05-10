@@ -1,1 +1,0 @@
-export { TopFeatureBar } from './TopFeatureBar';

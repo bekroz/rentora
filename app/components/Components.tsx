@@ -5,8 +5,8 @@ import {
 	SearchBar,
 	CategoryList,
 	OnSaleList,
+	FeaturedEstateList
 } from './screens/dashboard';
-import { TopFeatureBar } from './screens/featured';
 
 const Components = {
 	Layouts: {
@@ -18,10 +18,9 @@ const Components = {
 		SearchBar,
 		CategoryList,
 		OnSaleList,
+		FeaturedEstateList
 	},
-	Featured: {
-		TopFeatureBar,
-	},
+	Featured: {},
 };
 
 export default Components;

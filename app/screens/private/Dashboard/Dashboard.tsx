@@ -1,7 +1,5 @@
 import React from 'react';
-import { Text, View } from 'react-native';
 import { Components } from '../../../components';
-import { SIZES } from '../../../constants/theme';
 
 const DashboardScreen = () => {
 	return (
@@ -11,6 +9,7 @@ const DashboardScreen = () => {
 			<Components.Dashboard.SearchBar />
 			<Components.Dashboard.CategoryList />
 			<Components.Dashboard.OnSaleList />
+			<Components.Dashboard.FeaturedEstateList />
 		</Components.Layouts.DashboardLayout>
 	);
 };

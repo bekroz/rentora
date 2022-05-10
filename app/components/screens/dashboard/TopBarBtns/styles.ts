@@ -19,7 +19,7 @@ export default RN.StyleSheet.create({
 	location: {
 		fontSize: 10,
 		fontWeight: '500',
-		color: '#252B5C',
+		color: COLORS.blue,
 	},
 	dropDown: {
 		right: -5,
@@ -35,7 +35,7 @@ export default RN.StyleSheet.create({
 	bellBtn: {
 		marginRight: 10,
 		borderWidth: 1.2,
-		borderColor: '#8BC83F',
+		borderColor: COLORS.green,
 	},
 	bellIcon: {
 		width: '50%',
@@ -53,8 +53,5 @@ export default RN.StyleSheet.create({
 		width: '100%',
 		height: '100%',
 		borderRadius: 50,
-	},
-	white: {
-		backgroundColor: COLORS.white,
 	},
 });

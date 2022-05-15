@@ -4,3 +4,6 @@ export { SearchBar } from './SearchBar';
 export { CategoryList } from './CategoryList';
 export { OnSaleList } from './OnSaleList';
 export { FeaturedEstateList } from './FeaturedEstateList';
+export { SuggestedLocationList } from './SuggestedLocationList';
+export { SuggestedAgentsList } from './SuggestedAgentsList';
+export { NearbyEstateList } from './NearbyEstateList';

@@ -8,7 +8,7 @@ import { HomeProps } from '../../../../models/dashboard';
 const OnSaleHome = ({ imgUri, title, subTitle }: HomeProps) => {
 	return (
 		<RN.TouchableOpacity key={title} style={styles.homeContainer}>
-			<RN.Image source={imgUri} style={styles.homeImg}  />
+			<RN.Image source={imgUri} style={styles.homeImg} />
 			<RN.View style={styles.textContainer}>
 				<RN.Text style={styles.title}>{title}</RN.Text>
 				<RN.Text style={styles.subTitle}>{subTitle}</RN.Text>

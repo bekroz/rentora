@@ -10,6 +10,7 @@ export default RN.StyleSheet.create({
 		alignItems: 'center',
 		width: 'auto',
 		marginRight: 10,
+		maxHeight: 50,
 	},
 	categoryText: {
 		padding: 20,

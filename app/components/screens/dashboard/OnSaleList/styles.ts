@@ -8,7 +8,7 @@ export default RN.StyleSheet.create({
 	homeContainer: {
 		marginRight: 10,
 		borderRadius: 25,
-		backgroundColor: 'green',
+		backgroundColor: '#000000',
 		borderBottomLeftRadius: 0,
 		height: 150,
 		width: SIZES.width / 1.5,
@@ -18,6 +18,7 @@ export default RN.StyleSheet.create({
 		height: '100%',
 		borderRadius: 25,
 		borderBottomLeftRadius: 0,
+		opacity: 0.7,
 	},
 	textContainer: {
 		position: 'absolute',
@@ -29,6 +30,7 @@ export default RN.StyleSheet.create({
 		fontWeight: '700',
 		fontSize: 18,
 		marginBottom: 20,
+		padding: 5,
 	},
 	subTitle: {
 		color: COLORS.white,

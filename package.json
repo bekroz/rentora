@@ -1,33 +1,55 @@
 {
-	"name": "rentora",
-	"version": "1.0.0",
-	"main": "node_modules/expo/AppEntry.js",
-	"author": "BekRoz<bekrozdev@gmail.com>",
-	"license": "MIT",
-	"scripts": {
-		"start": "expo start",
-		"android": "expo start --android",
-		"ios": "expo start --ios",
-		"web": "expo start --web",
-		"eject": "expo eject"
-	},
-	"dependencies": {
-		"expo": "^45.0.2",
-		"expo-status-bar": "^1.3.0",
-		"react": "^18.1.0",
-		"react-dom": "^18.1.0",
-		"react-native": "^0.68.2",
-		"react-native-svg": "^12.3.0",
-		"react-native-web": "^0.17.7",
-		"react-navigation": "^4.4.4",
-		"yarn-upgrade-all": "^0.7.1"
-	},
-	"devDependencies": {
-		"@babel/core": "^7.17.10",
-		"@types/react": "~17.0.21",
-		"@types/react-native": "^0.67.6",
-		"react-native-svg-transformer": "^1.0.0",
-		"typescript": "^4.6.4"
-	},
-	"private": true
+  "name": "rentora",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "author": "BekRoz<bekrozdev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "storybook": "start-storybook -p 7007",
+    "build-storybook": "build-storybook",
+    "test": "jest"
+  },
+  "dependencies": {
+    "expo": "^45.0.2",
+    "expo-status-bar": "^1.3.0",
+    "jest": "^28.1.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-native": "^0.68.2",
+    "react-native-svg": "^12.3.0",
+    "react-native-web": "^0.17.7",
+    "react-navigation": "^4.4.4",
+    "yarn-upgrade-all": "^0.7.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@storybook/addon-actions": "^5.3",
+    "@storybook/addon-knobs": "^5.3",
+    "@storybook/addon-links": "^5.3",
+    "@storybook/addon-ondevice-actions": "^5.3.23",
+    "@storybook/addon-ondevice-knobs": "^5.3.25",
+    "@storybook/react-native": "^5.3.25",
+    "@storybook/react-native-server": "^5.3.23",
+    "@types/react": "~17.0.21",
+    "@types/react-native": "^0.67.6",
+    "babel-loader": "^8.2.5",
+    "jest-expo": "^45.0.1",
+    "react-native-svg-transformer": "^1.0.0",
+    "typescript": "^4.6.4"
+  },
+  "private": true,
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base)"
+    ],
+    "setupFilesAfterEnv": [
+      "./__mocks__/globalMock.js"
+    ]
+  }
 }

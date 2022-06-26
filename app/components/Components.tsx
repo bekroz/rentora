@@ -1,36 +1,7 @@
-import { DashboardLayout } from './common/Layouts';
-import { SuggestionList } from './common/FlatLists';
-import {
-	TopBarBtns,
-	WelcomeMsg,
-	SearchBar,
-	CategoryList,
-	OnSaleList,
-	FeaturedEstateList,
-	SuggestedLocationList,
-	SuggestedAgentsList,
-	NearbyEstateList,
-} from './screens/dashboard';
+import ScreenBased from "./screen-based";
 
 const Components = {
-	FlatLists: {
-		SuggestionList,
-	},
-	Layouts: {
-		DashboardLayout,
-	},
-	Dashboard: {
-		TopBarBtns,
-		WelcomeMsg,
-		SearchBar,
-		CategoryList,
-		OnSaleList,
-		FeaturedEstateList,
-		SuggestedLocationList,
-		SuggestedAgentsList,
-		NearbyEstateList,
-	},
-	Featured: {},
+  ScreenBased,
 };
 
 export default Components;

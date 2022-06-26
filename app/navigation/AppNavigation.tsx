@@ -1,25 +1,24 @@
-import React from 'react';
+import React from "react";
 import {
-	createStackNavigator,
-	createBottomTabNavigator,
-	createAppContainer,
-} from 'react-navigation';
-import { DashboardScreen } from '../screens/private';
+  createStackNavigator,
+  createBottomTabNavigator,
+  createAppContainer,
+} from "react-navigation";
 
 const AppStack = createStackNavigator({
-	Dashboard: { screen: DashboardScreen },
-	// Search: { screen: SearchScreen },
-	// SavedList: { screen: SavedListScreen },
-	// Profile: { screen: ProfileScreen },
+  Dashboard: { screen: Screems },
+  // Search: { screen: SearchScreen },
+  // SavedList: { screen: SavedListScreen },
+  // Profile: { screen: ProfileScreen },
 });
 const AuthStack = createStackNavigator({
-	// Login: { screen: LoginScreen },
-	// SignUp: { screen: SignUpScreen },
-	// Restore: { screen: RestoreScreen },
+  // Login: { screen: LoginScreen },
+  // SignUp: { screen: SignUpScreen },
+  // Restore: { screen: RestoreScreen },
 });
 
 const App = createBottomTabNavigator({
-	AppStack: { screen: AppStack },
-	// AuthStack: { screen: AuthStack },
+  AppStack: { screen: AppStack },
+  // AuthStack: { screen: AuthStack },
 });
 export default createAppContainer(App);

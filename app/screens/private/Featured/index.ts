@@ -1,1 +1,1 @@
-export { default as FeaturedScreen } from './Featured'
+export { default as Featured } from "./Featured";
